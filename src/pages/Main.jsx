@@ -1,8 +1,10 @@
-export default function Contacts() {
+export default function Main() {
     return (
         <div>
-            <h1>Tiny Health Tales</h1> 
-            <p>Header</p>
+            <div>
+                <h1>Tiny Health Tales</h1> 
+            </div>
+            
         </div>
        
     );
