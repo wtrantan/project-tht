@@ -1,11 +1,14 @@
 import './App.css';
-import Main from './pages/Main';
-import { Routes, Route } from "react-router-dom";
+import Main from './pages/Main/Main';
+import Contacts from './pages/Contacts/Contacts'
+import 'bootstrap';
+import {Routes, Route} from "react-router-dom";
 function App() {
   return (
-    <div>
-   <Main/>
-   </div>
+    <Routes>
+    <Route path="/" element={<Main/>}/>
+    <Route path="/Contacts" element={<Contacts/>}/>
+  </Routes>
   );
 }
 
