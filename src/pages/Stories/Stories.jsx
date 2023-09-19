@@ -1,4 +1,4 @@
-export default function Contacts() {
+export default function Stories() {
     return (
         <div>
             <p>hello</p>

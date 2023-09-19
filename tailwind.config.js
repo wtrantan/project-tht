@@ -4,12 +4,14 @@ module.exports = {
   "./public/**/index.html",],
   prefix: "tw-",
   theme: {
-    extend: {},
-    colors: {
-      transparent: "transparent",
-      "platinum": "#DDDDDD",
-      "tiffany-blue": "#98E2C6",
-    }
+    extend: {
+      colors: {
+        transparent: "transparent",
+        "platinum": "#DDDDDD",
+        "tiffany-blue": "#98E2C6",
+    },
+    
+    },
   },
   plugins: [],
 }

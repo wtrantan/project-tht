@@ -1,5 +1,11 @@
+.background {
+  background-image: url("../../../public/playground.png");
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-color: lightsalmon;
+}
 body {
-    background-color: lightsalmon;
+    
     color: white;
     font-family: "Poppins", sans-serif;
   }
@@ -10,26 +16,31 @@ body {
   }
   
   header {
-    padding: 0 20px;
     background-color: lightcoral;
     height: 50px;
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+   
+  
+   
     
   }
   
   #brand {
     font-weight: bold;
     font-size: 18px;
-    display: flex;
     align-items: center;
+    text-align: center;
+    diplsay:inline-block;
+    
   }
   
   #brand a {
+
     color: lightsalmon;
     padding: 5px;
     border: 2px solid black;
     
+
   }
   
   ul {
@@ -54,27 +65,6 @@ body {
     transition: 0.3s;
   }
   
-  #login,
-  #signup {
-    border-radius: 5px;
-    padding: 5px 8px;
-  }
-  
-  #login {
-    border: 1px solid #498afb;
-  }
-  
-  #signup {
-    border: 1px solid #ff3860;
-  }
-  
-  #signup a {
-    color: #ff3860;
-  }
-  
-  #login a {
-    color: #498afb;
-  }
   
   #hamburger-icon {
     margin: auto 0;
@@ -125,11 +115,17 @@ body {
   }
   
   @media only screen and (max-width: 600px) {
-    header nav {
+    nav {
       display: none;
     }
   
     #hamburger-icon {
       display: block;
     }
+  }
+
+  .p {
+    color:white;
+    display:flex;
+    text-align:center;
   }
