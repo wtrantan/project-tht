@@ -1,14 +1,19 @@
 #para {
     color:black;
     justify-content: space-around;
-    overflow: auto;
     display:inline-block;
+    margin-left: 2rem;
+    margin-right: 2rem;
     align-items: left;
-    padding:50px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:20px;
     text-indent: 25px;
 
 }
 .container {
+    
+    position:flex;
 
 }
 @media only screen and (max-width: 600px) {
@@ -19,9 +24,15 @@
 
 }
 
+h1 {
+    font-size:18px;
+    margin-top:1em;
+    margin-top:5px;
+    padding: 0;
+}
+
 img {
     display: flex;
-    items-align: center;
     text-align: center;
     align-items:center;
     padding:2rem;

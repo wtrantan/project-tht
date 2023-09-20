@@ -1,0 +1,19 @@
+#firstImage {
+    width: 500px;
+    padding: 0;
+    filter: brightness(30%);
+    right: 0; bottom: 0;
+  
+    text-align:center;
+}
+#firstImage:hover {
+  filter: brightness(70%);
+}
+
+.back {
+background-color: rgba(0,0,0,0.2);
+}
+.overlay { 
+    color:#fff;
+    
+}
