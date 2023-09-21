@@ -7,7 +7,7 @@ import Slider from '../../Components/Slider';
 import Card from '../../Components/Card';
 export default function Main() {
   function toggleMobileMenu(menu) {
-    menu.classList.toggle('open');
+    menu.classLxist.toggle('open');
 }
     return (
       <div >

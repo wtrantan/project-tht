@@ -10,10 +10,10 @@ export default function Navbar() {
     <div>
   <header>
 
-<div className="tw-text-center tw-py-3"><a className=" tw-border-2 tw-p-2" href="/">Tiny Health Tales</a></div>
-
+<div className="tw-text-center "><a id='brand' className="" href="/"><img src='tht-logo.png'></img></a></div>
 
 </header>
+
 <nav>
   <ul>
     <li><Link to="/">Home</Link></li>
@@ -22,6 +22,7 @@ export default function Navbar() {
     
   </ul>
 </nav>
+
 <div id="hamburger-icon" onClick={() => toggleMobileMenu(this)}>
   <div className="bar1"></div>
   <div className="bar2"></div>
@@ -32,6 +33,8 @@ export default function Navbar() {
     <li><a href="/about">About Us</a></li>
   </ul>
 </div>
+
 </div>
+
     )
 }

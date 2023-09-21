@@ -4,10 +4,7 @@ nav {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 2rem;
-    padding-right: 2rem;
+
     
 }
 
@@ -15,8 +12,8 @@ nav {
 
 li {
     justify-content:space-between;
-    border: 2px solid black;
-    border-radius:1vh;
+   //border: 2px solid black;
+    //border-radius:1vh;
 }
 header a {
     text-decoration: none;
@@ -24,16 +21,19 @@ header a {
   }
   
   header {
-    background-color: lightcoral;
-    height: 50px;
+    background-color: rgb(35, 176, 247);
     justify-content: space-around;
-   
+   height: auto;
   
    
     
   }
-  
+  img {
+
+  }
   #brand {
+    margin-left:2rem;
+    margin-right: 2rem;
     font-weight: bold;
     font-size: 18px;
     align-items: center;
@@ -45,8 +45,7 @@ header a {
   #brand a {
 
     color: lightsalmon;
-    padding: 5px;
-    border: 2px solid black;
+
     
 
   }
@@ -55,12 +54,14 @@ header a {
     list-style: none;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: space-around;
+    text-align:right;
   }
   
   ul a {
     color: coral;
+    
   }
   
   ul li {
@@ -68,6 +69,7 @@ header a {
     margin-left: 100px;
     margin-right: 100px;
     justify-content: space-between;
+    
   }
   
   ul li:hover {

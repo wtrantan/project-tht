@@ -2,11 +2,10 @@
   background-image: url("../../../public/playground.png");
   background-repeat: no-repeat;
   background-size: 2000px;
-  background-color: lightsalmon;
 }
 body {
 
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(55, 182, 246);
     color: white;
     font-family: "Poppins", sans-serif;
   }
