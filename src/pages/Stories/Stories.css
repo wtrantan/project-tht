@@ -1,9 +1,25 @@
-img {
+#grid {
     object-fit: cover;
-    border-radius: 3rem;
+    border-radius: 2rem;
     height: 100%;
     max-width: 100%;
+    width: 300px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+   
+    
  
+}
+img:hover {
+    border-radius: 0;
+}
+.Container {
+    margin: 2rem;
+    justify-items: center;
 }
 /*
 @media (max-width: 576px) {

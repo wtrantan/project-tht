@@ -31,10 +31,3 @@ h1 {
     padding: 0;
 }
 
-img {
-    display: flex;
-    text-align: center;
-    align-items:center;
-    padding:2rem;
-    width: 300px;
-}
